@@ -20,3 +20,19 @@ Top 100 players based on fantasy points
 - Points: fantasy points throughout the year 2022, float 
 
 There was no issues found in the data.
+
+From histograms, I could find points and age have both bell on the left side having tail on the right (skewed right).
+
+Pearson Correlation gives that...
+
+[1] PassingTD and Points have about 0.71. This is very strong linear correlation, which makes sense since TD gives the most points.
+
+[2] RushingTD and Points have about 0.42. This is pretty strong linear correlation.
+
+[3] Age and Points have about 0.15. This is very weak correlation.
+
+[4] Int and Points have about 0.56. This is pretty strong. This is pretty interesting considering that interception takes away your point not give.
+
+I calculated the average score for each position and made the bar plot. This bar plot suggests that average fantasy points for positions are ranked as QB (quarterback), RB (runningback), WR (Wide Receiver), TE (Tight End).
+
+The scatterplot for PassingTD vs. Points had two big patterns to consider. First, there is a straight line going up where passing TD is zero. This happens because there are lots of ways to acquire points without having passing TD. Second, there is a pretty strong linearity which suggests the more passingTD, the higher points were.
